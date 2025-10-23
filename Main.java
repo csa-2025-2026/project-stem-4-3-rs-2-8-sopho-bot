@@ -4,26 +4,41 @@ public class Main
 {
   public static void main(String[] args)
   {
-    int counter = 0;
+    /* int counter = 0;
     for (int i = 1; i <= 25; i += 2)
     {
       System.out.print(i + " ");
-    }
+    } */
+    
 
-    for (int c = 17; c <= 73; c++)
+   /* for (int c = 17; c <= 73; c++)
     {
-      if (counter % 10 == 9)
+       System.out.print(c + " ");
+
+      if (c % 10 == 6)
       {
-        System.out.println(i + " ");
+        System.out.println();
       }
-      else 
+    } */
+
+    /* Scanner scan = new Scanner(System.in);
+    System.out.println("Enter a number between 0 and 50");
+    int input = scan.nextInt();
+     if (input <= 0 || input >= 50)
+    {
+      System.out.println("error");
+    }
+    else 
+     { for (int i = input; i < 50; i++)
       {
         System.out.print(i + " ");
-        counter++;
+        if (i % 5 == input - 1)
+        {
+          System.out.println();
+        }
       }
-      if counter == 10
-      {
-        counter = 0;
-      }
-    }
+     }
+    scan.close();
+    */
+  }
 }
